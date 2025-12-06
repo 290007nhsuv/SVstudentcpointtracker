@@ -1,4 +1,4 @@
-// The public CSV URL from your Google Sheet
+// The public CSV URL from your Google Sheet why
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTrxs74JzVjgKbg_JTPLV5YHCG_w4HiRZPx0MclFHofOhwW7O81ygswCE_Aqn8qm_bVuSEgL8DqvabI/pub?gid=0&single=true&output=csv';
 
 let studentData = [];
