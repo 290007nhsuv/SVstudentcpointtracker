@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🏆 Student Point Tracker</h1>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter Name or ID (e.g., 260154 or Volpe)" autofocus>
+            <button onclick="searchPoints()">Search</button>
+        </div>
+
+        <div id="results" class="results-container">
+            <p>Enter a **Student Name** or **ID Number** above to see their point status.</p>
+        </div>
+
+        <p class="data-note">Data last updated: <span id="lastUpdated">Loading...</span></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Point Tracker</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
